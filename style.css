@@ -4,10 +4,15 @@
     border: 0;
 }
 
+@media screen and (min-width: 1275px){
+    
+
+
 .cabecalho{
     background-color: rgb(56, 36, 0);
     width: 100%;
     height: 100px;
+
 }
 
 .logo{
@@ -37,12 +42,14 @@ body{
 
 
 .carousel-item img {
-    width: 700px;
-    height: 450px;
-    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     margin: 0 auto;
     border-radius: 15px;
-}
+    max-height: 390px;
+  }
+  
 
 .auto h2{
     text-align: center;
@@ -204,13 +211,13 @@ body{
 .dv{
     grid-column: 3;
     grid-row: 2/5;
-    background-color: rgb(56, 36, 0);
+    background-color: rgba(78, 52, 0, 0.781);
     border-radius: 12px;
     
 }
 
 .dv h2{
-    color: rgb(223, 214, 191);
+    color: rgba(223, 214, 191, 0.89);
     text-align: center;
     font-size: 30px;
     margin-top: 15px;
@@ -225,9 +232,495 @@ body{
 }
 
 .dv h3{
-    color: rgb(223, 214, 191);
+    color: rgba(223, 214, 191, 0.87);
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 23.5px;
     text-align: center;
 }
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(56, 36, 0);
+    padding: 20px;
+  }
+  .foot h3 {
+    color: white;
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (min-width:750px) and (max-width: 1274px){
+
+    .cabecalho{
+        background-color: rgb(56, 36, 0);
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    .logo{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        padding: 10px;
+        font-family: "Merriweather", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+    
+    .logo h1{
+        font-size: 70px;
+    }
+    
+    
+    
+    body{
+        background-color: rgb(88, 58, 0);
+    }
+    
+    
+    
+    .carousel-item img {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 15px;
+        max-height: 390px;
+      }
+      
+    
+    .auto h2{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .alta{
+        color: white;
+        font-family: "Merriweather", serif;
+        font-optical-sizing: 20;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+        font-size: 25px;
+        padding-left: 5px;
+    }
+    
+    .receitas_principais{
+        display: grid;
+        grid-template-columns: repeat(2,335px);
+        grid-gap: 20px;
+        padding: 10px;
+        padding-top: 30px;
+        padding-left: 30px;
+        justify-content: center;
+    }
+    
+    .f1{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+    }
+    
+    .f1 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f1 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+        font-size: 20px;
+    }
+    
+    .f2{
+        grid-column: 2;
+        grid-row: 2;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+    }
+    
+    .f2 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f2 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+        font-size: 20px;
+    }
+    
+    .f3{
+        grid-column: 1;
+        grid-row: 3;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+    }
+    
+    .f3 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f3 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+        font-size: 20px;
+    }
+    
+    .f4{
+        grid-column: 2;
+        grid-row: 3;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+    }
+    
+    .f4 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f4 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+        font-size: 20px;
+    }
+    
+    .f5{
+        grid-column: 1;
+        grid-row: 4;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+    }
+    
+    .f5 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+        height: 150px;
+    }
+    
+    .f5 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+        font-size: 20px;
+    }
+    
+    .f6{
+        grid-column: 2;
+        grid-row: 4;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+    }
+    
+    .f6 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+        height: 150px;
+    }
+    
+    .f6 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+        font-size: 20px;
+    }
+    
+    .dv{
+        display: none;
+        
+    }
+    
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(56, 36, 0);
+        padding: 20px;
+      }
+      .foot h3 {
+        color: white;
+        font-size: 12px;
+        margin: 5px 0;
+        text-align: center;
+      }
+
+
+}
+
+@media screen and (max-width: 749px){
+
+
+    .cabecalho{
+        background-color: rgb(56, 36, 0);
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    
+    }
+    
+    .logo{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        font-family: "Merriweather", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+    
+    .logo h1{
+        font-size: auto;
+        padding: 30px;
+    }
+    
+    
+    
+    body{
+        background-color: rgb(88, 58, 0);
+    }
+    
+    
+    
+    .carousel-item img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 15px;
+        max-height: 210px;
+      }
+      
+    
+    .auto h2{
+        text-align: center;
+        font-size: 17px;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+    .alta{
+        color: white;
+        font-family: "Merriweather", serif;
+        font-optical-sizing: 20;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+        font-size: 20px;
+        padding-left: 9px;
+    }
+    
+    .receitas_principais{
+        display: grid;
+        grid-template-columns: repeat(1,365px);
+        grid-gap: 20px;
+        padding: 10px;
+        padding-top: 30px;
+        padding-left: 30px;
+        justify-content: center;
+    }
+    
+    .f1{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+        width: 350px;
+    }
+    
+    .f1 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f1 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+    }
+    
+    .f2{
+        grid-column: 1;
+        grid-row: 3;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+        width: 350px;
+    }
+    
+    .f2 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f2 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+    }
+    
+    .f3{
+        grid-column: 1;
+        grid-row: 4;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+        width: 350px;
+    }
+    
+    .f3 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f3 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+    }
+    
+    .f4{
+        grid-column: 1;
+        grid-row: 5;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+        width: 350px;
+    }
+    
+    .f4 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+    }
+    
+    .f4 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+    }
+    
+    .f5{
+        grid-column: 1;
+        grid-row: 6;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+        width: 350px;
+    }
+    
+    .f5 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+        height: 150px;
+    }
+    
+    .f5 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+    }
+    
+    .f6{
+        grid-column: 1;
+        grid-row: 7;
+        background-color: rgb(56, 36, 0);
+        height: 250px;
+        border-radius: 12px; 
+        text-decoration: none; 
+        text-align: center;
+        width: 350px;
+    }
+    
+    .f6 img{
+        border-radius: 10px;
+        width: 250px;
+        margin-top: 15px;
+        height: 150px;
+    }
+    
+    .f6 h3{
+        padding: 15px;
+        color: rgb(223, 214, 191);
+    }
+    
+    .dv{
+        display: none;
+        
+    }
+    
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(56, 36, 0);
+        padding: 20px;
+      }
+      .foot h3 {
+        color: white;
+        font-size: 12px;
+        margin: 5px 0;
+        text-align: center;
+      }
+
+}
+
+  
+  
+
