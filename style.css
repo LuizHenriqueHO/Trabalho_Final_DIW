@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho{
+    background-color: rgb(56, 36, 0);
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.logo h1{
+    font-size: 70px;
+}
+
+
+
+body{
+    background-color: rgb(88, 58, 0);
+}
+
+
+
+.carousel-item img {
+    width: 700px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.auto h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.alta{
+    color: white;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: 20;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.receitas_principais{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-gap: 20px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.f1{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(56, 36, 0);
+    height: 250px;
+    border-radius: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.f1 img{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.f1 h3{
+    padding: 15px;
+    color: rgb(219, 206, 169);
+}
+
+.f2{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(56, 36, 0);
+    height: 250px;
+    border-radius: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.f2 img{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.f2 h3{
+    padding: 15px;
+    color: rgb(219, 206, 169);
+}
+
+.f3{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(56, 36, 0);
+    height: 250px;
+    border-radius: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.f3 img{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.f3 h3{
+    padding: 15px;
+    color: rgb(219, 206, 169);
+}
+
+.f4{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: rgb(56, 36, 0);
+    height: 250px;
+    border-radius: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.f4 img{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.f4 h3{
+    padding: 15px;
+    color: rgb(219, 206, 169);
+}
+
+.f5{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: rgb(56, 36, 0);
+    height: 250px;
+    border-radius: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.f5 img{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+    height: 150px;
+}
+
+.f5 h3{
+    padding: 15px;
+    color: rgb(219, 206, 169);
+}
+
+.f6{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: rgb(56, 36, 0);
+    height: 250px;
+    border-radius: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.f6 img{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 15px;
+    height: 150px;
+}
+
+.f6 h3{
+    padding: 15px;
+    color: rgb(219, 206, 169);
+}
+
+.dv{
+    grid-column: 3;
+    grid-row: 2/5;
+    background-color: rgb(56, 36, 0);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: ;
+}
+
+.dv h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.dv img{
+    width: 350px;
+    justify-content: center;
+
+}
