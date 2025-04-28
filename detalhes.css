@@ -4,6 +4,8 @@
     border: 0;
 }
 
+@media screen and (min-width: 1275px){ 
+
 body{
     width: 100%;
     height: 100%;
@@ -13,14 +15,18 @@ body{
     background-color: rgb(56, 36, 0);
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: center;
 
 }
 
+.cabecalho img{
+    width: 100px;
+}
+
 .logo{
-    display: flex;
     text-decoration: none;
     color: white;
-    justify-content: center;
     padding: 10px;
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -57,6 +63,7 @@ body{
 
 .receitas img{
     width: 400px;
+    height: 270px;
     margin-top: 20px;
     border-radius: 15px;
 }
@@ -117,13 +124,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
 .foot {
     display: flex;
     flex-direction: column;
@@ -137,3 +137,296 @@ body{
     margin: 5px 0;
     text-align: center;
   }
+
+}
+
+
+@media screen and (min-width:700px) and (max-width: 1274px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cabecalho{
+        background-color: rgb(56, 36, 0);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .cabecalho img{
+        width: 100px;
+    }
+    
+    .logo{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-family: "Merriweather", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+    }
+    
+    .logo h1{
+        font-size: 70px;
+    }
+    
+    
+    .detalhes-receita{
+        background-color: rgb(88, 58, 0);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        place-items: center;
+    }
+    
+    .receitas{
+        grid-column: 1;
+        grid-row: 1;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding: 20px;
+        background-color: rgb(56, 36, 0);
+        border-radius: 15px;
+        width: 600px;
+    }
+    
+    .receitas img{
+        width: 400px;
+        height: 270px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    .receitas h1{
+        color: white;
+        margin-top: 10px;
+        font-size: 35px;
+    
+    }
+    
+    .receitas p{
+        color: white;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    
+    
+    .Preparo{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: rgb(56, 36, 0);
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 15px;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .Preparo h3{
+        color: white;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .Preparo ul{
+        margin-left: 50px;
+        margin-top: 10px;
+        color: rgb(223, 214, 191);
+        font-size: 18px;
+    }
+    
+    .Preparo P{
+        color: rgb(223, 214, 191);
+        margin-left: 30px;
+        margin-top: 12px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    .botao{
+        grid-column: 1;
+        grid-row: 3;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        margin-top: 2px;
+    }
+    
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(56, 36, 0);
+        padding: 20px;
+      }
+      .foot h3 {
+        color: white;
+        font-size: 12px;
+        margin: 5px 0;
+        text-align: center;
+      }
+
+}
+
+@media screen and (max-width: 699px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .cabecalho{
+        background-color: rgb(56, 36, 0);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .cabecalho img{
+        width: 70px;
+        height: 70px;
+        padding-top: 7px;
+    }
+    
+    .logo{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-family: "Merriweather", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+    }
+    
+    .logo h1{
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    
+    
+    .detalhes-receita{
+        background-color: rgb(88, 58, 0);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        place-items: center;
+    }
+    
+    .receitas{
+        grid-column: 1;
+        grid-row: 1;
+        justify-content: center;
+        text-align: center;
+        margin: 7px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        padding: 10px;
+        background-color: rgb(56, 36, 0);
+        border-radius: 15px;
+        width: 300px;
+    }
+    
+    .receitas img{
+        width: 200px;
+        height: 140px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    
+    .receitas h1{
+        color: white;
+        margin-top: 10px;
+        font-size: 25px;
+    
+    }
+    
+    .receitas p{
+        color: white;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    
+    
+    .Preparo{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: rgb(56, 36, 0);
+        margin-top: 5px;
+        padding: 15px;
+        border-radius: 15px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .Preparo h3{
+        color: white;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    
+    .Preparo ul{
+        margin-left: 45px;
+        margin-top: 10px;
+        color: rgb(223, 214, 191);
+        font-size: 15px;
+    }
+    
+    .Preparo P{
+        color: rgb(223, 214, 191);
+        margin-left: 25px;
+        margin-top: 8px;
+        font-size: 15px;
+        text-align: justify;
+    }
+    
+    .botao{
+        grid-column: 1;
+        grid-row: 3;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        margin-top: 2px;
+    }
+    
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(56, 36, 0);
+        padding: 20px;
+      }
+      .foot h3 {
+        color: white;
+        font-size: 12px;
+        margin: 5px 0;
+        text-align: center;
+      }
+
+}
+}

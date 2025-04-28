@@ -12,14 +12,18 @@
     background-color: rgb(56, 36, 0);
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: center;
 
 }
 
+.cabecalho img{
+    width: 100px;
+}
+
 .logo{
-    display: flex;
     text-decoration: none;
     color: white;
-    justify-content: center;
     padding: 10px;
     font-family: "Merriweather", serif;
   font-optical-sizing: auto;
@@ -262,14 +266,18 @@ body{
         background-color: rgb(56, 36, 0);
         width: 100%;
         height: 100px;
+        display: flex;
+        justify-content: center;
     
     }
     
+    .cabecalho img{
+        width: 100px;
+    }
+    
     .logo{
-        display: flex;
         text-decoration: none;
         color: white;
-        justify-content: center;
         padding: 10px;
         font-family: "Merriweather", serif;
       font-optical-sizing: auto;
@@ -497,14 +505,22 @@ body{
         margin: 0;
         padding: 0;
         border: 0;
+        display: flex;
+        justify-content: center;
     
+    }
+
+    
+    .cabecalho img{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        display: none;
     }
     
     .logo{
-        display: flex;
         text-decoration: none;
         color: white;
-        justify-content: center;
         font-family: "Merriweather", serif;
       font-optical-sizing: auto;
       font-weight: <weight>;
@@ -528,7 +544,7 @@ body{
     
     .carousel-item img {
         width: 100%;
-        max-width: 400px;
+        max-width: 350px;
         height: auto;
         margin: 0 auto;
         border-radius: 15px;
@@ -557,12 +573,11 @@ body{
     
     .receitas_principais{
         display: grid;
-        grid-template-columns: repeat(1,365px);
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 20px;
         padding: 10px;
-        padding-top: 30px;
-        padding-left: 30px;
-        justify-content: center;
+        padding-top: 20px;
+        place-items: center;
     }
     
     .f1{
@@ -573,7 +588,7 @@ body{
         border-radius: 12px; 
         text-decoration: none; 
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     
     .f1 img{
@@ -583,7 +598,7 @@ body{
     }
     
     .f1 h3{
-        padding: 15px;
+        padding: 5px;
         color: rgb(223, 214, 191);
     }
     
@@ -595,7 +610,7 @@ body{
         border-radius: 12px; 
         text-decoration: none; 
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     
     .f2 img{
@@ -617,7 +632,7 @@ body{
         border-radius: 12px; 
         text-decoration: none; 
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     
     .f3 img{
@@ -639,7 +654,7 @@ body{
         border-radius: 12px; 
         text-decoration: none; 
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     
     .f4 img{
@@ -661,7 +676,7 @@ body{
         border-radius: 12px; 
         text-decoration: none; 
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     
     .f5 img{
@@ -684,7 +699,7 @@ body{
         border-radius: 12px; 
         text-decoration: none; 
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     
     .f6 img{
